@@ -1,3 +1,26 @@
-# api-gerenciador-pessoas
+# API simples para gerenciar Pessoas
 
 Após subir a aplicação [clique aqui](http://localhost:8080/swagger-ui/index.html#/) para ter acesso a documentação da API e testar os endpoints
+
+
+Usando Spring boot, crie uma API simples para gerenciar Pessoas. Esta API deve permitir:  
+    •	Criar uma pessoa
+    •	Editar uma pessoa
+    •	Consultar uma pessoa
+    •	Listar pessoas
+    •	Criar endereço para pessoa
+    •	Listar endereços da pessoa
+    •	Poder informar qual endereço é o principal da pessoa  
+
+Uma Pessoa deve ter os seguintes campos:  
+•	Nome
+•	Data de nascimento
+•	Endereço:
+    o	Logradouro
+    o	CEP
+    o	Número
+    o	Cidade
+
+Requisitos  
+•	Todas as respostas da API devem ser JSON  
+•	Banco de dados H2
